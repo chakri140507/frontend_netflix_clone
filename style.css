@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    height: 70px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 70vh;
+    background-image: url(images/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1300px, 100vw);
+    /* height: auto; */
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    background-color: black;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+}
+
+nav img {
+    color: red;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.first {
+    color: white;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    padding: 0px 23px;
+}
+
+.first>:nth-child(1) {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+}
+
+.first>:nth-child(2) {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    text-align: center;
+}
+
+.first>:nth-child(3) {
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(64, 62, 62);
+}
+
+.btn {
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 39px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.main input {
+    background-color: transparent;
+    margin: 0px 8px;
+    width: 222px;
+    /* border:  solid red; */
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 900;
+    border: 1px solid rgba(241, 238, 238, 0.5);
+
+}
+
+.red-btn-sn {
+    background-color: red;
+    color: white;
+    /* padding: 6px 15px; */
+    border-radius: 6px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .second {
+        flex-wrap: wrap;
+    }
+}
+
+.secimg img {
+    margin: 16px -85px 0px 0px;
+    width: 706px;
+}
+
+/* .second>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.secimg {
+    position: relative;
+}
+
+.secimg iframe {
+    height: 200px;
+    width: 355px;
+    position: absolute;
+    top: 126px;
+    right: 112px;
+}
+
+section.second>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+
+}
+
+section.second>div :first-child {
+    font-size: 34px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+section.second>div :nth-child(2) {
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.fir span {
+    padding-left: 132px;
+}
+
+.four span {
+    padding-left: 132px;
+}
+
+.faq h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 45px;
+}
+
+.faq {
+    background: black;
+    color: white;
+}
+
+.faqbox:hover {
+    background-color: rgb(84, 83, 83);
+
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 25px;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 14px auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.span {
+    /* text-align: center; */
+    padding: 34px 0px;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+    @media screen and (max-width: 1300px) {
+        .footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            color: white;
+        }
+
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    @media screen and (max-width: 1300px) {
+        .red-btn {
+            padding: 10px 20px;
+            margin-left: 35px;
+            margin-top: 5px;
+        }
+        .main input{
+            width: 222px;
+            margin: 5px 2px;
+        }
+        .second{
+            flex-wrap: wrap;
+        }
+        nav{
+            max-width: 90vw;
+        }
+        /* .secimg img{
+            width: 305px;
+        } */
+        .first>:nth-child(1){
+            font-size: 32px;
+        }
+        .first>:nth-child(2){
+            font-size: 18px;
+        }
+        .first>:nth-child(3){
+            font-size: 18px;
+        }
+        .secimg ifram{
+            width: 305px;
+            position: absolute;
+            top: 19px;
+    right: -32px;
+        }
+
+    }
